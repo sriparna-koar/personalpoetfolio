@@ -8,13 +8,13 @@ import Skills from './components/Skills';
 import Education from './components/qualifications';
 import Hobbies from './components/Hobbies';
 import Contact from './components/Contact';
-// import NavigationBar from '/components./NavigationBar';
+
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Routes>
-      {/* <NavigationBar /> */}
+     
         <Route path="/" element={<Home />} />
         <Route path="/introduction" element={<Introduction />} />
         <Route path="/projects" element={<Projects />} />
