@@ -2,7 +2,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faDatabase, faChartBar, faDesktop } from '@fortawesome/free-solid-svg-icons';
-
+import NavigationBar from './NavigationBar';
+import Footer from './Footer';
 const Skills = () => {
  
   const skills = [
@@ -15,6 +16,7 @@ const Skills = () => {
 
   return (
     <section className="skills-section">
+       <NavigationBar />
       <h1>Skills</h1>
       <div className="skills-list">
         {skills.map((skill, index) => (
@@ -22,6 +24,7 @@ const Skills = () => {
             <FontAwesomeIcon icon={skill.icon} className="skill-icon" />
             <span className="skill-name">{skill.name}</span>
             <div className="progress">
+              
               <div
                 className="progress-bar"
                 role="progressbar"
@@ -31,9 +34,13 @@ const Skills = () => {
                 aria-valuemax="100"
               ></div>
             </div>
+            <Footer/>
           </div>
+          
         ))}
+        
       </div>
+     
     </section>
   );
 };

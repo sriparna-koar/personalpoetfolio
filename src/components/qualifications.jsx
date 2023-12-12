@@ -1,7 +1,8 @@
 import React from 'react';
-
+import NavigationBar from './NavigationBar';
+import Footer from './Footer';
 const Education = () => {
-  // Define your educational qualifications
+ 
   const qualifications = [
     {
       degree: 'Bachelor of Science in Computer Science',
@@ -22,6 +23,7 @@ const Education = () => {
 
   return (
     <section className="education-section">
+       <NavigationBar />
       <h1>Educational Qualifications</h1>
       <div className="qualifications-list">
         {qualifications.map((qualification, index) => (
@@ -34,6 +36,8 @@ const Education = () => {
           </div>
         ))}
       </div>
+      <Footer/>
+      
     </section>
   );
 };

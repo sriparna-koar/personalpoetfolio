@@ -19,6 +19,10 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <div className="footer-info">
+        <p>All rights reserved</p>
+        <p>Created by Sriparna Koar</p>
+      </div>
     </footer>
   );
 };

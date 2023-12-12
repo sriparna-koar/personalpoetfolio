@@ -1,8 +1,9 @@
 import React from 'react';
 import olympicAnimation from './olympic-app-animation.gif';
 import weatherAppAnimation from './images/weather-app-animation.gif';
-// import jobDetailsAnimation from './job-details-formation.gif';
 
+import Footer from './Footer';
+import NavigationBar from './NavigationBar';
 const Projects = () => {
   const projectStyle = {
     marginBottom: '20px',
@@ -18,18 +19,19 @@ const Projects = () => {
 
   const descriptionStyle = {
     fontSize: '16px',
-    // color: '#333',
+    
   };
 
   const imageStyle = {
     width: '100px',
     height: 'auto',
     borderRadius: '4px',
-    // boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+
   };
 
   return (
     <section className="projects-section">
+       <NavigationBar />
       <h1>Projects</h1>
 
       <div style={projectStyle}>
@@ -43,15 +45,16 @@ const Projects = () => {
         <h3 style={headingStyle}>Weather App</h3>
         <p style={descriptionStyle}>Description: Your description here...</p>
         <img src={weatherAppAnimation} alt="Weather App" style={imageStyle} />
+        <a href="https://sriparna-koar.github.io/weather/">View on GitHub</a>
       </div>
 
       <div style={projectStyle}>
         <h3 style={headingStyle}>Job Details Formation</h3>
         <p style={descriptionStyle}>Description: Your description here...</p>
-        {/* <img src={jobDetailsAnimation} alt="Job Details Formation" /> */}
-      </div>
 
-      {/* Add more projects as needed */}
+      </div>
+      <Footer/>
+    
     </section>
   );
 };

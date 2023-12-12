@@ -1,5 +1,6 @@
 import React from 'react';
-
+import NavigationBar from './NavigationBar';
+import Footer from './Footer';
 const Contact = () => {
   const name = 'Sriparna Koar';
   const email = 'koarsk03@gmail.com';
@@ -51,13 +52,18 @@ const Contact = () => {
 
   return (
     <div style={contactStyle}>
+      
+       <NavigationBar />
       <h1>Contact Me</h1>
       <p style={paragraphStyle}>Feel free to reach out to me through the following channels:</p>
       <ul style={listStyle}>
         <li style={listItemStyle}>Name: {name}</li>
         <li style={listItemStyle}>Email: <a href={`mailto:${email}`} style={linkStyle}>{email}</a></li>
         <li style={listItemStyle}>Phone: <a href={`tel:${phone}`} style={linkStyle}>{phone}</a></li>
+        
       </ul>
+      <Footer/>
+      
     </div>
   );
 };

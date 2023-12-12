@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import Footer from './Footer';
 const About = () => {
   return (
     <section id="about">
