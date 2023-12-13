@@ -34,6 +34,14 @@
 .nav-links a.active {
   font-weight: bold; 
 }
-.navbar {
-  cursor: url('https://png.pngtree.com/thumb_back/fw800/background/20220901/pngtree-3d-silver-pointer-cursor-pointer-bright-photo-image_553261.jpg'), auto; 
+.mobile .nav-links {
+  display: none;
+}
+.mobile .mobile-menu-icon {
+  display: block;
+
+}
+.mobile.expanded .nav-links {
+  display: block;
+
 }
