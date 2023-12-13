@@ -6,7 +6,7 @@
   width: 100%;
   
 }
-
+/* 
 .nav-links {
   list-style: none;
   display: flex;
@@ -46,4 +46,32 @@
 .mobile.expanded .nav-links {
   display: block;
 
+} */
+
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+ 
 }
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.nav-links.mobile-view {
+  flex-direction: column; 
+  text-align: center;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+
+
