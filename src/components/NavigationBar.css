@@ -4,14 +4,12 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
   
 }
 
 .nav-links a {
   color: white; 
   text-decoration: none; 
-  font-size: 18px; 
 }
 
 .navbar.sticky {
@@ -28,10 +26,10 @@
   align-items: center;
 
 }
-/* .mobile-menu {
+.mobile-menu {
   display: flex;
   align-items: center;
-} */
+}
 
 /* .menu-icon {
   background: none;
@@ -42,20 +40,20 @@
   margin-right: 10px;
 } */
 
-/* .mobile-nav-links {
+.mobile-nav-links {
   list-style: none;
   padding-left: 0;
   display: none;
-} */
+}
 
-/* .mobile-nav-links.show {
+.mobile-nav-links.show {
   display: block;
-} */
+}
 
-/* 
+
 .nav-links li {
   margin: 0 10px;
-} */
+}
 
 
 
