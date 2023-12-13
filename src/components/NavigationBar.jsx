@@ -1,30 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './NavigationBar.css'; 
 
 const NavigationBar = () => {
-  const [isSticky, setIsSticky] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const offset = window.scrollY;
-      if (offset > 100) {
-        setIsSticky(true);
-      } else {
-        setIsSticky(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   const navLinks = [
     {to:'/', text:'Home'},
-    // { to: '/introduction', text: 'Introduction' },
     { to: '/projects', text: 'Projects' },
     { to: '/skills', text: 'Skills' },
     { to: '/education', text: 'Education' },
@@ -33,7 +13,7 @@ const NavigationBar = () => {
   ];
 
   return (
-    <nav className={isSticky ? "navbar sticky" : "navbar"}>
+    <nav className="navbar">
       <ul className="nav-links">
         {navLinks.map((link, index) => (
           <li key={index}>
