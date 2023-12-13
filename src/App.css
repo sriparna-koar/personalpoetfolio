@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust this based on your layout */
+  height: 100vh; 
+  /* Adjust this based on your layout */
 }
 
 /* Style for individual components (for example, Introduction) */

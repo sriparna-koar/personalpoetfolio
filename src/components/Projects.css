@@ -1,0 +1,42 @@
+/* Projects.css */
+
+.projects-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .projects-heading {
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  
+  .project-item {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-heading {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .project-description {
+    font-size: 18px;
+  }
+  
+  .project-image {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: #0000ee; /* Change link color as needed */
+    display: block;
+    margin-top: 10px;
+  }
+  
