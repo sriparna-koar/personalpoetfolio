@@ -11,7 +11,8 @@ const Home = () => {
        <h1>Welcome to My Portfolio</h1>
        <NavigationBar />
        <p className="intro-text">Hi, I'm Sriparna Koar, a passionate UI & UX designer and web developer. I am dedicated to creating user-friendly and
-                    visually appealing experiences. </p>
+                    visually appealing experiences. With a background in BTECH CSE-AI from Techno India University, I
+                    bring a unique blend of technical skills and design aesthetics to my projects </p>
      <Footer/>
     </div>
   );

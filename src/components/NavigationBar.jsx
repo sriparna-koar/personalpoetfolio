@@ -25,7 +25,7 @@ const NavigationBar = () => {
 
   const navLinks = [
     {to:'/', text:'Home'},
-    { to: '/introduction', text: 'Introduction' },
+    // { to: '/introduction', text: 'Introduction' },
     { to: '/projects', text: 'Projects' },
     { to: '/skills', text: 'Skills' },
     { to: '/education', text: 'Education' },
