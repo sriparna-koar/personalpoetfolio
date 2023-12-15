@@ -26,7 +26,7 @@ const Projects = () => {
         <h3 className="project-heading">Weather App</h3>
         <p className="project-description">Description: Your description here...</p>
         <img src={weatherAppAnimation} alt="Weather App" className="project-image" />
-        <a href="https://sriparna-koar.github.io/weather/" className="project-link">
+        <a href="https://github.com/sriparna-koar/weather_detect" className="project-link">
           View on GitHub
         </a>
       </div>
