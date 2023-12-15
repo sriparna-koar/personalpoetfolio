@@ -9,7 +9,9 @@
 
 .nav-links a {
   color: white; 
-  text-decoration: none; 
+  text-decoration: none;
+  
+ 
 }
 
 .navbar.sticky {
@@ -24,6 +26,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 15px;
+
 
 }
 .mobile-menu {

@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-links">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/sriparna-koar" target="_blank" rel="noopener noreferrer">
             <FaGithub className="icon github" />
           </a>
           <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
