@@ -1,0 +1,37 @@
+
+.education-section {
+
+    padding: 20px;
+  }
+  
+  .education-heading {
+
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .qualifications-list {
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .qualification-item {
+   
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: calc(50% - 20px); 
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+    .qualification-item {
+    
+      width: 100%; 
+    }
+
+  }
+  
