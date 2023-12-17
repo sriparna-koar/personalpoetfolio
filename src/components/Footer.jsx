@@ -20,8 +20,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-info">
-        <p>All rights reserved</p>
-        <p>Created by Sriparna Koar</p>
+        <p>All rights reserved &copy; 2023 Sriparna Koar</p>
       </div>
     </footer>
   );

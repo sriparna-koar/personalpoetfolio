@@ -1,37 +1,64 @@
 
 .education-section {
+  padding: 20px;
+}
 
-    padding: 20px;
-  }
-  
-  .education-heading {
+.education-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
 
-    color: #ffffff;
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
-  
+.qualifications-list {
+  display: grid;
+  justify-content: space-between;
+   flex-wrap: wrap;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
   .qualifications-list {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+}
 
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .qualification-item {
-   
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    width: calc(50% - 20px); 
-  }
-  
- 
-  @media screen and (max-width: 768px) {
-    .qualification-item {
-    
-      width: 100%; 
-    }
 
-  }
-  
+.qualification-item {
+  width: calc(90% - 10px);
+  background-color: #c4e0ed;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.degree {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.year {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.institution,
+.location,
+.description {
+  margin-bottom: 10px;
+}
+.degree,
+.year,
+.institution,
+.location,
+.description {
+  color: black;
+}
+
+
+.qualification-item:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}

@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Education from './components/qualifications';
 import Hobbies from './components/Hobbies';
 import Contact from './components/Contact';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const App = () => {
