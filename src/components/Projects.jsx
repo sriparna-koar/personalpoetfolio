@@ -72,7 +72,7 @@ const Projects = () => {
             Olympic games details are given, also participation form and also submitted form are shown and prize details
             forms are given
           </p>
-          <a href="https://sriparna-koar.github.io/weather_detect" className="project-link">
+          <a href="https://sriparna-koar.github.io/olympic-games" className="project-link">
             View on GitHub
           </a>
           <img src={olympicAnimation} alt="Olympic Game Formation" className="project-image" />
@@ -89,7 +89,7 @@ const Projects = () => {
         <div className="project-item">
           <h3 className="project-heading black-text">Quiz APP</h3>
          <p className="project-description">User can play quiz game and add values to their knowledge learningnew things</p>
-        <a href="https://sriparna-koar.github.io/weather_detect" className="project-link">
+        <a href="https://sriparna-koar.github.io/create_aquiz" className="project-link">
            View on GitHub
          </a>
       </div>
