@@ -94,9 +94,9 @@ const Projects = () => {
          </a>
       </div>
       <div className="project-item">
-          <h3 className="project-heading black-text">Quiz APP</h3>
-         <p className="project-description">User can play quiz game and add values to their knowledge learningnew things</p>
-        <a href="https://sriparna-koar.github.io/weather_detect" className="project-link">
+          <h3 className="project-heading black-text">Color Guessing Game</h3>
+         <p className="project-description">Guess your color</p>
+        <a href="https://sriparna-koar.github.io/color_guessing_game" className="project-link">
            View on GitHub
          </a>
       </div>
